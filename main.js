@@ -141,6 +141,8 @@ $(document).on("ready", function(){
     }
    })
 
+  var inner_block_total_width = ($("#inner_block").width() + (parseInt($("#inner_block").css("left"))));
+  $("#outer_block").width(inner_block_total_width + "px");
 
 })
 
